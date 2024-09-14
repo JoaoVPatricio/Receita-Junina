@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Receita Junina</title>
+  </head>
+  <body>
+    <main>
+      <div class="food">
+        <button id="prev"> < </button>
+        <button id="next"> > </button>
+        <div class="image">
+          <img
+            id="image"
+            src=""
+            alt=""
+          />
+        </div>
+        <div class="food-info">
+          <div class="name">
+            <h1 id="foodName"></h1>
+          </div>
+          <div class="description">
+            <h2 id="foodDescription"></h2>
+          </div>
+          <div class="portions">
+            <h2>Porcões</h2>
+            <button id="minusButton">-</button>
+            <span id="incrementNumber">01</span>
+            <button id="plusButton">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="recipe">
+        <div class="ingredients">
+          <div class="container">
+            <img src="img/cesta.svg" alt="Cesta de Compras" />
+            <h2>Ingredientes</h2>
+          </div>
+          <ul id="foodIngredients">
+            <!-- <li>1 espiga de milho verde</li>
+            <li>1 colher de sopa de açúcar</li>
+            <li>1 colher de sopa de manteiga</li>
+            <li>Sal a gosto</li>
+            <li>Palha de milho (para embrulhar)</li> -->
+          </ul>
+        </div>
+        <div class="preparation-method">
+          <div class="container">
+            <img src="img/panela.svg" alt="Panela" />
+            <h2>Modo de preparo</h2>
+          </div>
+          <ol id="foodPreparation">
+            <!-- <li>Descasque a espiga de milho e corte os grãos.</li>
+            <li>Bata o milho, açúcar, manteiga e sal no liquidificador.</li>
+            <li>Coloque a massa nas palhas de milho e feche bem.</li>
+            <li>Cozinhe em água fervente por cerca de 40 minutos.</li>
+            <li>Deixe esfriar e sirva.</li> -->
+          </ol>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

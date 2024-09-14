@@ -1,0 +1,333 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.food {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  height: 50vh;
+  padding: 4.625rem 0;
+  background-color: #feece0;
+  color: #58190a;
+  position: relative;
+}
+
+.food #prev {
+  position: absolute;
+  left: 20px;
+  background: rgba(155, 102, 71, 0.2);
+  border: 2px solid #9b6647;
+  border-radius: 50%;
+  color: #9b6647;
+  font-size: x-large;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.food #next {
+  position: absolute;
+  right: 20px;
+  background: rgba(155, 102, 71, 0.2);
+  border: 2px solid #9b6647;
+  border-radius: 50%;
+  color: #9b6647;
+  font-size: x-large;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.food .image img {
+  width: 409px;
+  height: 293px;
+}
+
+.food-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.food-info .name h1 {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.food-info .description h2 {
+  font-size: 38px;
+  font-weight: normal;
+  max-width: 560px;
+}
+
+.food-info .portions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.food-info .portions h2 {
+  font-size: 35px;
+  font-weight: normal;
+  color: #9b6647;
+  margin-right: 5px;
+}
+
+.food-info .portions button {
+  background: none;
+  border: 2px solid #9b6647;
+  border-radius: 50%;
+  color: #9b6647;
+  font-size: large;
+  text-align: center;
+  line-height: 0.9;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.food-info .portions span {
+  color: #9b6647;
+  font-size: 30px;
+}
+
+.recipe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+  height: 50vh;
+  padding: 4.625rem 3.125rem;
+  background-color: #9b6647;
+  color: #fff;
+}
+
+.recipe .container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 1.3rem;
+}
+
+.recipe .ingredients .container {
+  margin-left: -37px;
+}
+
+.recipe .preparation-method .container {
+  margin-left: -40px;
+}
+
+.recipe h2 {
+  font-size: 2.375rem;
+  font-weight: bold;
+  color: #feece0;
+}
+
+.recipe ul,
+ol {
+  font-size: 1.75rem;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 360px) {
+  body {
+    overflow: hidden;
+  }
+
+  .food {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .food-info .name h1 {
+    font-size: 40px;
+  }
+
+  .food-info .description h2 {
+    font-size: 24px;
+  }
+
+  .food-info .portions h2 {
+    font-size: 24px;
+  }
+
+  .food .image img {
+    width: 210px;
+    height: 120px;
+  }
+
+  .recipe {
+    display: block;
+    padding: 2rem 3rem;
+    line-height: 1.4;
+    overflow: scroll;
+  }
+
+  .recipe .preparation-method .container {
+    margin-top: 1.5rem;
+  }
+
+  .recipe .container h2 {
+    font-size: 24px;
+  }
+
+  .recipe ul, ol {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 470px) {
+  body {
+    overflow: hidden;
+  }
+
+  .food {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .food-info .name h1 {
+    font-size: 46px;
+  }
+
+  .food-info .description h2 {
+    font-size: 28px;
+  }
+
+  .food-info .portions h2 {
+    font-size: 28px;
+  }
+
+  .food .image img {
+    width: 240px;
+    height: 160px;
+  }
+
+  .recipe {
+    display: block;
+    padding: 2rem 3rem;
+    line-height: 1.4;
+    overflow: scroll;
+  }
+
+  .recipe .preparation-method .container {
+    margin-top: 1.5rem;
+  }
+
+  .recipe .container h2 {
+    font-size: 28px;
+  }
+
+  .recipe ul, ol {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 470px) and (max-width: 780px) {
+  body {
+    overflow: hidden;
+  }
+
+  .food {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .food-info .name h1 {
+    font-size: 52px;
+  }
+
+  .food-info .description h2 {
+    font-size: 32px;
+  }
+
+  .food-info .portions h2 {
+    font-size: 32px;
+  }
+
+  .food .image img {
+    width: 260px;
+    height: 180px;
+  }
+
+  .recipe {
+    display: block;
+    padding: 2rem 3rem;
+    line-height: 1.4;
+    overflow: scroll;
+  }
+
+  .recipe .preparation-method .container {
+    margin-top: 1.5rem;
+  }
+
+  .recipe .container h2 {
+    font-size: 32px;
+  }
+
+  .recipe ul, ol {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1074px) {
+  body {
+    overflow: hidden;
+  }
+
+  .food-info .name h1 {
+    font-size: 52px;
+  }
+
+  .food-info .description h2 {
+    font-size: 32px;
+  }
+
+  .food-info .portions h2 {
+    font-size: 32px;
+  }
+
+  .food .image img {
+    width: 260px;
+    height: 180px;
+  }
+
+  .recipe {
+    display: block;
+    padding: 2rem 3rem;
+    line-height: 1.4;
+    overflow: scroll;
+  }
+
+  .recipe .ingredients, .preparation-method {
+    padding-left: 8rem;
+  }
+
+  .recipe .preparation-method .container {
+    margin-top: 1.5rem;
+  }
+
+  .recipe .container h2 {
+    font-size: 32px;
+  }
+
+  .recipe ul, ol {
+    font-size: 28px;
+  }
+}

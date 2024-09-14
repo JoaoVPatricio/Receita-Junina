@@ -1,0 +1,89 @@
+{
+  "receitas": [
+    {
+      "nome": "Pamonha",
+      "descricao": "Prato típico com milho verde ralado",
+      "ingredientes": [
+        "1 espiga de milho verde",
+        "1 colher de sopa de açúcar",
+        "1 colher de sopa de manteiga",
+        "Sal a gosto",
+        "Palha de milho (para embrulhar)"
+      ],
+      "modo_de_preparo": [
+        "Descasque a espiga de milho e corte os grãos.",
+        "Bata o milho, açúcar, manteiga e sal no liquidificador.",
+        "Coloque a massa nas palhas de milho e feche bem.",
+        "Cozinhe em água fervente por cerca de 40 minutos.",
+        "Deixe esfriar e sirva."
+      ],
+      "imagem": "./img/ilustracao-de-pamonha-desenhada-a-mao.png"
+    },
+    {
+      "nome": "Pipoca Doce",
+      "descricao": "Pipoca doce e crocante, perfeita para animar as festas juninas.",
+      "ingredientes": [
+        "1 xícara de milho para pipoca",
+        "1/2 xícara de açúcar",
+        "1/4 xícara de água",
+        "1 colher de sopa de manteiga",
+        "1 colher de sopa de óleo",
+        "1/2 colher de chá de corante alimentício (opcional)"
+      ],
+      "modo_de_preparo": [
+        "Aqueça o óleo em uma panela grande em fogo médio.",
+        "Adicione o milho e cubra a panela.",
+        "Agite a panela ocasionalmente até o milho estourar.",
+        "Em outra panela, misture o açúcar e a água e leve ao fogo até formar uma calda espessa.",
+        "Adicione a manteiga e o corante à calda e mexa até incorporar.",
+        "Despeje a calda sobre a pipoca estourada e mexa bem para cobrir.",
+        "Deixe a pipoca esfriar antes de servir."
+      ],
+      "imagem": "./img/pipoca-doce.png"
+    },
+    {
+      "nome": "Bolo de Milho",
+      "descricao": "Bolo de milho cremoso, tradicional em festas juninas.",
+      "ingredientes": [
+        "1 lata de milho verde (com a água)",
+        "1 xícara de farinha de milho",
+        "1 xícara de açúcar",
+        "1/2 xícara de leite",
+        "1/2 xícara de óleo",
+        "3 ovos",
+        "1 colher de sopa de fermento em pó"
+      ],
+      "modo_de_preparo": [
+        "Preaqueça o forno a 180°C.",
+        "No liquidificador, bata o milho com a água, o açúcar, o leite, o óleo e os ovos.",
+        "Transfira a mistura para uma tigela e adicione a farinha de milho e o fermento.",
+        "Misture até ficar homogêneo.",
+        "Despeje a massa em uma forma untada e enfarinhada.",
+        "Asse por cerca de 40 minutos ou até o bolo estar dourado e firme ao toque.",
+        "Deixe esfriar antes de servir."
+      ],
+      "imagem": "./img/bolo-de-milho_.png"
+    },
+    {
+      "nome": "Canjica",
+      "descricao": "Doce cremoso de milho, uma verdadeira delícia das festas juninas.",
+      "ingredientes": [
+        "1 xícara de canjica",
+        "1 litro de leite",
+        "1 xícara de açúcar",
+        "1/2 xícara de coco ralado",
+        "1/4 xícara de amendoim picado",
+        "1 colher de chá de canela em pó"
+      ],
+      "modo_de_preparo": [
+        "Deixe a canjica de molho em água por 8 horas ou durante a noite.",
+        "Escorra e coloque a canjica em uma panela com o leite.",
+        "Cozinhe em fogo baixo, mexendo frequentemente, até a canjica ficar macia e o leite reduzir.",
+        "Adicione o açúcar, o coco ralado e a canela.",
+        "Cozinhe por mais alguns minutos até o doce engrossar.",
+        "Sirva quente ou frio, polvilhado com amendoim picado."
+      ],
+      "imagem": "./img/canjica.png"
+    }
+  ]
+}
